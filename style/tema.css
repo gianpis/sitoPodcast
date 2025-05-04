@@ -1,0 +1,15 @@
+body{
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.dark {
+    background-color: #0a0a0a;
+}
+
+.dark .text{
+    color: #fafafa;
+}
+
