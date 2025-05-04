@@ -1,0 +1,123 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    min-width: 800px;
+    background-color: #f4f4f4;
+    margin: 0px;
+}
+
+#divTotale {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#barraTop {
+    min-height: 50px;
+    max-height: 120px;
+    height: 15%;
+    background-color: white;
+    border-bottom: solid 3px #ebebeb;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    transition: width 0.4s ease;
+}
+
+#menu {
+    height: 30%;
+    transform: translateX(90%);
+    cursor: pointer;
+}
+
+#logo {
+    height: 60%;
+    transform: translateX(80%);
+}
+
+#sole {
+    height: 60%;
+    margin-left: auto;
+    transform: translateX(-150%);
+    cursor: pointer;
+}
+
+#ing {
+    height: 60%;
+    transform: translateX(-85%);
+    cursor: pointer;
+}
+
+#it {
+    height: 60%;
+    transform: translateX(-70%);
+    cursor: pointer;
+}
+
+#menuLaterale {
+    transition: width 0.4s ease;
+    border-right: solid 3px #ebebeb;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.menuChiuso {
+    width: 0%;
+    content-visibility: auto;
+}
+
+.menuAperto {
+    width: 20%;
+    /*max-width: 400px;
+    min-width: 200px;*/
+    height: 100%;
+}
+
+.barraCorta {
+    width: 80%;
+}
+
+.barraLunga {
+    width: 100%;
+}
+
+#homeImg {
+    width: 90%;
+    min-width: 30px;
+    max-width: 90px;
+    cursor: pointer;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    height: min-content;
+    min-width: 90px;
+    border-collapse: collapse;
+}
+
+h4 {
+    font-family: 'Open sans', sans-serif;
+    color: #77288d;
+    font-weight: bold;
+    font-size: clamp(14px, 2vw, 28px);
+}
+
+#riga {
+    height: clamp(150px, 20vw, 270px);
+}
+
+.casellaDx {
+    text-align: left;
+}
+
+#casellaHome {
+    transform: translateX(30%);
+    width: fit-content;
+}
